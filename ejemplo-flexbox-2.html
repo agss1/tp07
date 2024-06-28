@@ -5,7 +5,7 @@
 <head>
    <style>
        body {
-           background-color: #f4acb7;
+           background-color: rgb(0, 119, 255);
            margin: 0;
            padding: 0;
        }
@@ -16,7 +16,7 @@
            flex-wrap: wrap; /* Permite que los elementos se envuelvan en líneas adicionales si no hay suficiente espacio */
            justify-content: center; /* Centra los elementos a lo largo del eje principal horizontal */
            align-items: center; /* Centra los elementos a lo largo del eje secundario vertical */
-           background-color: #ffcad4;
+           background-color: #ffffff;
            margin: 0 50px;/* Margen a la derecha y a la izquierda. El valor 0 es para el margen superior e inferior */
 
        }
@@ -25,7 +25,7 @@
            display: flex; /* Establece el encabezado como un contenedor flex */
            align-items: baseline; /* Alinea los elementos del encabezado a lo largo de la línea de base */
            justify-content: space-between; /* Distribuye los elementos del encabezado de manera uniforme a lo largo del eje principal horizontal */
-           padding: 25px;
+           padding: 10px 10px 5px 10px;
        }
        .container-title {
            width: 100%;
@@ -41,9 +41,15 @@
        .box {
            width: 350px;
            padding: 20px;
-           background-color: #ffe5d9;
+           background-color: #ffffff;
            margin: 10px;
            text-align: center;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           border: 3px solid black;
+       }
+       a{
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
        }
 
    </style>
@@ -52,37 +58,49 @@
 <body>
    <header>
        <div class="container-image">
-           <img src="https://coolors.co/assets/img/logo.svg" alt="Imagen de Producto">
+           <img src="jugador-de-futbol.png" alt="Futbol" width="80px" >
        </div>
        <div>
-           <h3 class="container-title">Mucho más que productos</h3>
+           <h3 class="container-title">Mucho más que unos botines</h3>
        </div>
    </header>
    <main class="container">
        <div class="box">
-           <img src="https://picsum.photos/200" alt="">
-           <h3>Título 1</h3>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-           <a href="#">Enlace 1</a>
+           <img src="botinesairnike.jpg" alt="botinesairnike" width="200px">
+           <h3>Botines Fútbol Nike Mercurial Vapor 15 Academy Fg</h3>
+           <p>$154.999</p>
+           <a href="#">COMPRAR </a>
        </div>
        <div class="box">
-           <img src="https://picsum.photos/200" alt="">
-           <h3>Título 2</h3>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-           <a href="#">Enlace 2</a>
+           <img src="botinesadidas.jpg" alt="botinesadidas" width="220px">
+           <h3>Botines Fútbol adidas Predator Elite Fg</h3>
+           <p>$369.999</p>
+           <a href="#">COMPRAR</a>
        </div>
        <div class="box">
-           <img src="https://picsum.photos/200" alt="">
-           <h3>Título 3</h3>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-           <a href="#">Enlace 3</a>
+           <img src="botinesnike2.jpg" alt="Nike" width="200px">
+           <h3>Botines Fútbol Nike Tiempo Legend 10 Elite Fg Hombre</h3>
+           <p>$389.999</p>
+           <a href="#">COMPRAR</a>
        </div>
        <div class="box">
-           <img src="https://picsum.photos/200" alt="">
-           <h3>Título 4</h3>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-           <a href="#">Enlace 4</a>
+           <img src="botinesnike3.jpg" alt="Nike" width="200px">
+           <h3>Botines Fútbol Nike Phantom Gx Elite Ag-pro Hombre</h3>
+           <p>$419.999</p>
+           <a href="#">COMPRAR</a>
        </div>
+       <div class="box">
+        <img src="nikemercurial.webp" alt="Nike" width="200px">
+        <h3>Botines Nike Mercurial Vapor Xiii Academy Mg NiÑo/a</h3>
+        <p>83.300</p>
+        <a href="#">comprar</a>
+    </div>
+    <div class="box">
+        <img src="botinespuma.jpg" alt="puma" width="200px">
+        <h3>Botines De Futbol Puma Future Match FG/AG Azulino</h3>
+        <p>139.999</p>
+        <a href="#">COMPRAR</a>
+    </div>
    </main>
 </body>
 </html>
